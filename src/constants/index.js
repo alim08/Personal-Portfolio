@@ -145,35 +145,35 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "<strong>Relevant Coursework</strong> - Data Structures and Algorithms, Computer Organization and Architecture, Operating Systems, Computer Networks, Database Systems, Software Engineering, Machine Learning, Discrete Math, Linear Algebra, and more.",
+    imgPath: "/images/ufbanner.png",
+    logoPath: "/images/UF.png",
+    title: "University of Florida",
+    date: "Fall 2022 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "<strong>Vice President of Pi Delta Psi Fraternity</strong> - Coordinated chapter events and mentored new members, fostering leadership and community engagement.",
+      "<strong>Florida Cicerone Tour Guide</strong> - Guided tours of the University of Florida campus, providing historical and cultural insights to visitors.",
+      "<strong>Organizer, STAT (Students Today, Alumni Tomorrow)</strong> - Organized events for students to connect with alumni and learn about career opportunities.",
     ],
   },
   {
     review:
       "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    imgPath: "/images/l3banner.png",
+    logoPath: "/images/l3harris.png",
+    title: "Software Engineer Intern",
+    date: "June 2024 - August 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "<strong>Sleek React.js Upload Interface</strong> - Crafted a drag-and-drop React front-end handling 150+ weekly submissions, reducing upload errors by 30% and boosting user adoption by 50%.",
+      "<strong>AST-Powered Python Detector</strong> - Developed an AST-based algorithm with custom regex that flags naming-convention violations at 98% accuracy, cutting manual review time by 60%.",
+      "<strong>Real-Time Feedback Pipeline</strong> - Integrated the UI with a REST API to deliver violation reports in under 5 seconds per file—accelerating code review cycles by 40% and increasing throughput by 25%. ",
     ],
   },
   {
     review:
       "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    imgPath: "/images/l3banner.png",
+    logoPath: "/images/l3harris.png",
     title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [

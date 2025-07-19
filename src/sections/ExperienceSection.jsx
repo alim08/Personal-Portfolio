@@ -101,7 +101,7 @@ const Experience = () => {
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
-            {expCards.map((card) => (
+            {expCards.map((card, index) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
@@ -126,14 +126,15 @@ const Experience = () => {
                           🗓️&nbsp;{card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          {index === 0 ? "Computer Science Major at the University of Florida" : 
+                           index === 1 ? "Full Stack Developer" : 
+                           index === 2 ? "Mobile Development Experience" :
+                           "N/A"}
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(
                             (responsibility, index) => (
-                              <li key={index} className="text-lg">
-                                {responsibility}
-                              </li>
+                              <li key={index} className="text-lg" dangerouslySetInnerHTML={{ __html: responsibility }} />
                             )
                           )}
                         </ul>

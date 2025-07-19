@@ -49,19 +49,21 @@ const AppShowcase = () => {
         {title}
       </h2>
       <p className="text-white-50 md:text-xl">{desc}</p>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={`View ${title} on GitHub`}
-        className="mt-2"
-      >
-        <img
-          src="/images/logos/github.png"
-          alt="GitHub logo"
-          className="w-8 h-8"
-        />
-      </a>
+      <div className="mt-2">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`View ${title} on GitHub`}
+          className="inline-block"
+        >
+          <img
+            src="/images/logos/github.svg"
+            alt="GitHub logo"
+            className="w-8 h-8"
+          />
+        </a>
+      </div>
     </div>
   );
 
@@ -71,25 +73,17 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/finline.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
-              {/*<h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-              <a className="icon" target="_blank" href="https://github.com/" key="https://github.com/">
-                <img src="images/logos/github.png" />
-              </a>*/}
-
               <ProjectCard
-                title="On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde"
-                desc="An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience."
-                link="https://github.com/your-ryde-repo"
+                title="finline: High-Performance Financial Market Data Pipeline"
+                desc="Finline is a real-time pipeline in Go that ingests and cleans live market data, 
+                spots anomalies as they happen, and delivers insights through a secure GraphQL API. 
+                Under the hood it uses Redis Streams for fast streaming, PostgreSQL for reliable storage, 
+                and JWT-protected subscriptions—showcasing my ability to design distributed, high-throughput 
+                systems for demanding financial applications."
+                link="https://github.com/alim08/fin_line"
               />
               
             </div>
@@ -99,15 +93,18 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/voyager.png"
                   alt="Library Management Platform"
                 />
-              </div>
+              </div>  
               {/*<h2>The Library Management Platform</h2>*/}
               <ProjectCard
-                title="Testing testing ok"
-                desc="Testing still to make sur eit look good on both devices"
-                link="https://github.com/your-library-repo"
+                title="Voyager: Start your Next Voyage!"
+                desc="Voyager is a full-stack application for optimizing store visits. 
+                It leverages React, Node.js, and Google Maps APIs to provide efficient routes 
+                based on real-time traffic and opening hours, demonstrating expertise in mapping 
+                solutions, algorithm implementation (2-opt), and responsive UI/UX."
+                link="https://github.com/brimatt16219/Voyager"
               />
               
             </div>
@@ -115,13 +112,15 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/move.png" alt="YC Directory App" />
               </div>
               {/*<h2>YC Directory - A Startup Showcase App</h2>*/}
               <ProjectCard
-                title="Caitlin has a big behind  asdasd asdasdasdsa asdas "
-                desc="She loves sushi and likes to eat as much as possible."
-                link="https://github.com/your-library-repo"
+                title="move"
+                desc="Move is a React & Flask web app backed by MongoDB and Python algorithms, 
+                letting you browse crowdsourced itineraries, discover the most popular attractions by time, and follow friends’ 
+                activity trails for inspiration."
+                link="https://github.com/jpatag/move"
               />
             </div>
           </div>
