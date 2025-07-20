@@ -1,143 +1,85 @@
-````markdown
-# Personal Portfolio
+# 🧑‍💻 Personal Portfolio Website
 
-**A modern, responsive personal portfolio showcasing projects, skills, and experiences.**
+A sleek, interactive developer portfolio built with **React.js**, **TailwindCSS**, and **Vite**, designed to showcase projects, technical skills, and experience with clean animations and a responsive layout.
 
----
+## ✨ Features
 
-## 🚀 Features
+- ⚡ **Fast** performance powered by Vite
+- 🎨 **Stylish UI** using TailwindCSS and custom SVG assets
+- 🧭 Smooth **scroll-based navigation** to Work, Experience, and Skills sections
+- 🖼️ Interactive **image-word transitions** to visually represent concepts
+- 📱 **Mobile responsive** for all screen sizes
 
-- **Interactive 3D Hero**: Smooth, interactive 3D model powered by Three.js and React Three Fiber.  
-- **Dynamic Animations**: Engaging animations using GSAP and CSS keyframes.  
-- **Responsive Design**: Built with Tailwind CSS and React Responsive for seamless viewing on all devices.  
-- **Project Showcase**: Highlighted projects with image gallery and detailed descriptions.  
-- **Experience Timeline & Counters**: Animated timeline and number counters to visualize milestones and metrics.  
-- **Contact Form**: Client-side form integrated with EmailJS for quick outreach.  
-- **Testimonials**: Carousel of client and peer testimonials.  
+## 🛠️ Tech Stack
 
----
+| Frontend     | Tooling         | Deployment   |
+|--------------|-----------------|--------------|
+| React.js     | Vite            | GitHub Pages |
+| TailwindCSS  | Node.js, NPM    |              |
 
-## 🧰 Tech Stack
+## 📂 Project Structure
 
-- **Framework**: React 19 + Vite 4  
-- **Styling**: Tailwind CSS 4  
-- **3D & Canvas**: Three.js, @react-three/fiber, @react-three/drei, @react-three/postprocessing  
-- **Animation**: GSAP, react-countup  
-- **Utilities**: react-responsive, react-countup  
-- **Email**: @emailjs/browser  
-- **Linting & Dev**: ESLint, Prettier, Vite  
-
----
-
-## 📁 Project Structure
-
-```bash
+```
 Personal-Portfolio/
-├─ public/                # Static assets (images, models)
-├─ src/
-│  ├─ components/         # Reusable UI components
-│  ├─ constants/          # Data (nav links, cards, counters, testimonials)
-│  ├─ styles/             # Global styles & Tailwind configs
-│  └─ main.jsx            # React entry point
-├─ .gitattributes         # Enforce LF endings
-├─ .gitignore             # Ignored files
-├─ package.json           # Dependencies & scripts
-├─ postcss.config.js      # PostCSS setup
-├─ tailwind.config.js     # Tailwind customization
-└─ vite.config.js         # Vite config
-````
-
----
-
-## ⚡ Getting Started
-
-### Prerequisites
-
-* Node.js v18+
-* npm or yarn
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/alim08/Personal-Portfolio.git
-cd Personal-Portfolio
-
-# Install dependencies
-npm install
-# or
-yarn install
+├── public/
+│   └── images/           # Image assets
+├── src/
+│   ├── assets/           # Custom visuals and icons
+│   ├── components/       # Reusable UI components
+│   ├── constants/        # Navigation and word arrays
+│   ├── styles/           # Tailwind and custom styles
+│   └── App.jsx           # Root component
+├── index.html
+├── tailwind.config.js
+└── vite.config.js
 ```
 
-### Development
+## 🚀 Getting Started
 
+To run locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/alim08/Personal-Portfolio.git
+   cd Personal-Portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 🧪 Linting & Formatting
+
+This project uses ESLint and Prettier. To check code quality:
 ```bash
-npm run dev
-# or
-yarn dev
+npm run lint
 ```
 
-Open your browser at `http://localhost:5173` to view.
+## 📦 Build
 
-### Production Build
-
+To create a production build:
 ```bash
 npm run build
-# or
-yarn build
 ```
 
-Preview the production build:
+## 🙌 Acknowledgements
 
-```bash
-npm run preview
-```
+- Inspired by modern developer portfolios and creative UI animations
+- SVG icons from [Heroicons](https://heroicons.com)
 
----
+## 📬 Contact
 
-## 🔧 Configuration
+If you'd like to connect:
 
-* **Contact Form**: Set up an EmailJS account and create a `.env` file in the project root with:
-
-  ```env
-  VITE_EMAILJS_SERVICE_ID=your_service_id
-  VITE_EMAILJS_TEMPLATE_ID=your_template_id
-  VITE_EMAILJS_PUBLIC_KEY=your_public_key
-  ```
-
-* **Constants**: Edit `src/constants/index.js` to update navigation links, hero words, counters, experience cards, testimonials, and social links.
+- LinkedIn: [adamlim](https://www.linkedin.com/in/adamlim/)
+- GitHub: [@alim08](https://github.com/alim08)
 
 ---
 
-## 🚀 Deployment
-
-This produces a static build in `dist/`. You can deploy it to any static hosting provider, such as Netlify, Vercel, GitHub Pages, or AWS S3.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork this repo
-2. Create a feature branch
-3. Open a pull request
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📫 Contact
-
-* **LinkedIn**: [https://www.linkedin.com/in/adamdlim/](https://www.linkedin.com/in/adamdlim/)
-* **GitHub**: [https://github.com/alim08](https://github.com/alim08)
-* **Email**: [hello@adamlim.dev](mailto:hello@adamlim.dev)
-
-Feel free to reach out with any questions or opportunities!
-
-```
-```
+© 2025 Adam Lim — All rights reserved.
