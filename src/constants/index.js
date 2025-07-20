@@ -158,11 +158,11 @@ const expCards = [
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "During my Summer 2024 software engineering internship, I spearheaded the development of a modern, user-centric React.js drag-and-drop interface for seamless code-quality submissions, architected a robust AST-powered Python analyzer for automated naming-convention enforcement, and integrated a real-time RESTful API pipeline to deliver instant feedback—demonstrating full-stack expertise in front-end engineering, automated code analysis, and scalable system architecture.",
     imgPath: "/images/l3banner.png",
     logoPath: "/images/l3harris.png",
     title: "Software Engineer Intern",
-    date: "June 2024 - August 2024",
+    date: "May 2024 - August 2024",
     responsibilities: [
       "<strong>Sleek React.js Upload Interface</strong> - Crafted a drag-and-drop React front-end handling 150+ weekly submissions, reducing upload errors by 30% and boosting user adoption by 50%.",
       "<strong>AST-Powered Python Detector</strong> - Developed an AST-based algorithm with custom regex that flags naming-convention violations at 98% accuracy, cutting manual review time by 60%.",
@@ -171,15 +171,15 @@ const expCards = [
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "During my Summer 2025 internship, I architected a Jenkins-driven CI/CD platform that fully automates builds, tests, and deployments across dev, staging, and prod, and then layered in an AI-powered review engine—fusing GPT-4 prompt templates with CodeQL static analysis—to catch issues earlier. By weaving these pieces into a seamless, end-to-end pipeline, I ensured every release was fast, reliable, and rooted in deeper code quality checks—demonstrating my knack for DevOps automation, AI integration, and scalable system design.",
     imgPath: "/images/l3banner.png",
     logoPath: "/images/l3harris.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Software Engineer Intern",
+    date: "May 2025 - August 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "<strong>Jenkins-Powered Rapid Release Pipeline</strong> - Built and maintained a CI/CD workflow automating builds, tests, and deployments across development, staging, and production—accelerating release cycles by 3× and reducing manual deployment steps by 60%.",
+      "<strong>AI-Enhanced Code Review Engine</strong> - Orchestrated an OpenAI GPT-4–driven review system with fine-tuned prompts alongside CodeQL static analysis—boosting peer-review throughput by 50% and cutting average feedback time in half.",
+      "<strong>End-to-End Multi-Environment Automation</strong> - Automated 100% of builds, tests, and deployments across dev, staging, and prod environments—eliminating manual handoffs and ensuring consistent, high-quality releases.",
     ],
   },
 ];
@@ -246,23 +246,13 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "github",
+    url: "https://github.com/alim08",
+    imgPath: "/images/image 189.png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/adamdlim/",
     imgPath: "/images/linkedin.png",
   },
 ];

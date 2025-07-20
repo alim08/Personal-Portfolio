@@ -128,7 +128,7 @@ const Experience = () => {
                         <p className="text-[#839CB5] italic">
                           {index === 0 ? "Computer Science Major at the University of Florida" : 
                            index === 1 ? "Full Stack Developer" : 
-                           index === 2 ? "Mobile Development Experience" :
+                           index === 2 ? "DevOps and AI Engineer" :
                            "N/A"}
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">

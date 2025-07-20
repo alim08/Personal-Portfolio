@@ -100,6 +100,22 @@ section {
 
   .hero-3d-layout {
     @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
+    
+    /* Reduce the interaction area for the 3D model */
+    canvas {
+      @apply pointer-events-none;
+    }
+    
+    /* Create a smaller interaction area in the center */
+    &::after {
+      content: '';
+      @apply absolute pointer-events-auto;
+      width: 60%;
+      height: 60%;
+      left: 20%;
+      top: 20%;
+      z-index: 10;
+    }
   }
 
   .navbar {
