@@ -12,7 +12,7 @@ import Footer from './sections/Footer.jsx'
 const App = () => {
   return (
     <>
-        <NavBar />
+        <Navbar />
         <Hero />
         <ShowcaseSection/>
         
