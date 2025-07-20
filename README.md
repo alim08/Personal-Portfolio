@@ -1,4 +1,4 @@
-# 🧑‍💻 Personal Portfolio Website
+# Personal Portfolio Website
 
 A sleek, interactive developer portfolio built with **React.js**, **TailwindCSS**, and **Vite**, designed to showcase projects, technical skills, and experience with clean animations and a responsive layout.
 
